@@ -20,7 +20,7 @@ variables:
   # CHANGE THESE VALUES
   azureSubscription: 'Azure-Service-Connection'
   webAppName: 'shopping-webapp'
-  resourceGroupName: 'demo-rg'
+  resourceGroupName: 'test'
   slotName: 'canary'
 
 stages:
