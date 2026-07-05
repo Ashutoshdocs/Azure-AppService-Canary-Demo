@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-VERSION = os.getenv("VERSION", "Version on canary")
+VERSION = os.getenv("VERSION", "Version on prod")
 
 @app.route("/")
 def home():
